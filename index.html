@@ -17,7 +17,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./stylesheets/styles.css" />
     <title>M.Y.A - Portfolio</title>
   </head>
@@ -67,12 +73,10 @@
 
                 <a
                   href="https://github.com/devkovmtl"
-                  class="btn btn-lg"
+                  class="btn btn-lg btn-outline--secondary"
                   target="_blank"
                 >
-                  <i
-                    class="devicon-github-original-wordmark colored icondev icondev-link"
-                  ></i>
+                  <i class="devicon-github-original-wordmark icondev"></i>
                 </a>
               </div>
             </div>
@@ -80,7 +84,298 @@
         </div>
       </section>
       <section id="projects" class="min-vh-100 bg-light">
-        <h1>World</h1>
+        <div class="p-4 mx-auto text-center">
+          <h1 class="display-4 fw-bold lh-1 mb-5 text-center title--color">
+            Projects
+          </h1>
+          <div class="container mt-5">
+            <hr class="divider" />
+
+            <div class="row">
+              <div class="col-md-7">
+                <h2 class="lh-1 fw-bold">Shopping Cart</h2>
+                <p>
+                  This web application is a built with React JS, utilizing
+                  fakestoreapi API. Using Axios to interact with the API. The
+                  application use react Reduxjs/toolkit as state management. Can
+                  add items to shopping cart view the items and remove them from
+                  the cart.
+                </p>
+
+                <div class="d-flex justify-content-around my-4">
+                  <div>
+                    <p class="mb-2 lead">Technologies Used</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <i class="devicon-react-original-wordmark icondev"></i>
+
+                      <i class="devicon-redux-original icondev"></i>
+                    </div>
+                  </div>
+                  <div style="min-width: 128px">
+                    <p class="mb-2 lead">Links</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <a
+                        href="https://github.com/devkovmtl/shopping-cart"
+                        class="btn btn-small btn-outline--secondary mr-4"
+                        target="_blank"
+                      >
+                        <i class="devicon-github-original-wordmark icondev"></i>
+                      </a>
+                      <a
+                        href="https://devkovmtl.github.io/shopping-cart/"
+                        class="btn btn-small btn-outline--secondary"
+                        target="_blank"
+                        ><i class="fa-solid fa-desktop icondev"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/myshop.png"
+                  alt="Shopping Cart Project"
+                  width="500"
+                  height="500"
+                  class="img-fluid mx-auto shadow-lg"
+                  focusable="false"
+                />
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="row">
+              <div class="col-md-7 order-md-2">
+                <h2 class="lh-1 fw-bold">Where is Waldo Game</h2>
+                <p class="lead">
+                  Build with react and Firebase has backend. Using react-router
+                  to select level and display. Or check the leaderboard. Click
+                  on image to find waldo. Once every character has been found
+                  show a modal to store the score.
+                </p>
+                <div class="d-flex justify-content-around my-4">
+                  <div>
+                    <p class="mb-2 lead">Technologies Used</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <i class="devicon-react-original-wordmark icondev"></i>
+                      <i class="devicon-tailwindcss-plain colored"></i>
+                      <i class="devicon-firebase-plain icondev"></i>
+                    </div>
+                  </div>
+                  <div style="min-width: 128px">
+                    <p class="mb-2 lead">Links</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <a
+                        href="https://github.com/devkovmtl/where-is-waldo"
+                        class="btn btn-small btn-outline--secondary mr-4"
+                        target="_blank"
+                      >
+                        <i class="devicon-github-original-wordmark icondev"></i>
+                      </a>
+                      <a
+                        href="https://waldo-71d19.web.app/"
+                        class="btn btn-small btn-outline--secondary"
+                        target="_blank"
+                        ><i class="fa-solid fa-desktop icondev"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img
+                  src="./images/wheres-waldo.jpg"
+                  alt="Where waldo Project"
+                  width="500"
+                  height="500"
+                  class="img-fluid mx-auto shadow-lg"
+                  focusable="false"
+                />
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="row">
+              <div class="col-md-7">
+                <h2 class="lh-1 fw-bold">Mini Twitter Clone</h2>
+                <p>
+                  This web application is a built with React JS and use Firebase
+                  has backend. User can register using email, password or Google
+                  Auth provider. Once login user can send tweet and see all the
+                  tweet. Using TailwindCSS for the UI switch to dark mode.
+                </p>
+
+                <div class="d-flex justify-content-around my-4">
+                  <div>
+                    <p class="mb-2 lead">Technologies Used</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <i class="devicon-react-original-wordmark icondev"></i>
+                      <i class="devicon-tailwindcss-plain colored"></i>
+                      <i class="devicon-firebase-plain icondev"></i>
+                    </div>
+                  </div>
+                  <div style="min-width: 128px">
+                    <p class="mb-2 lead">Links</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <a
+                        href="https://github.com/devkovmtl/fake-twitter-clone"
+                        class="btn btn-small btn-outline--secondary mr-4"
+                        target="_blank"
+                      >
+                        <i class="devicon-github-original-wordmark icondev"></i>
+                      </a>
+                      <a
+                        href="https://twitter-clone-dd466.web.app/home"
+                        class="btn btn-small btn-outline--secondary"
+                        target="_blank"
+                        ><i class="fa-solid fa-desktop icondev"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/twitter-clone.png"
+                  alt="Twitter Clone project"
+                  width="500"
+                  height="500"
+                  class="img-fluid mx-auto shadow-lg"
+                  focusable="false"
+                />
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="row">
+              <div class="col-md-7 order-md-2">
+                <h2 class="lh-1 fw-bold">Inventory App</h2>
+                <p>
+                  Application using ExpressJS. Admin can add, delete, update
+                  product, brand and category. The data is stored using MongoDB.
+                  The form data is check with express-validator. User can fetch
+                  data by category, brand or all product and see the data. The
+                  frontend is build using ejs and bootstrap.
+                </p>
+
+                <div class="d-flex justify-content-around my-4">
+                  <div>
+                    <p class="mb-2 lead">Technologies Used</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <i class="devicon-bootstrap-plain icondev"></i>
+                      <i class="devicon-express-original icondev"></i>
+                      <i class="devicon-mongodb-plain icondev"></i>
+                      <i class="devicon-heroku-original icondev"></i>
+                    </div>
+                  </div>
+                  <div style="min-width: 128px">
+                    <p class="mb-2 lead">Links</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <a
+                        href="https://github.com/devkovmtl/inventory-app"
+                        class="btn btn-small btn-outline--secondary mr-4"
+                        target="_blank"
+                      >
+                        <i class="devicon-github-original-wordmark icondev"></i>
+                      </a>
+                      <a
+                        href="https://gentle-fjord-76048.herokuapp.com/"
+                        class="btn btn-small btn-outline--secondary"
+                        target="_blank"
+                        ><i class="fa-solid fa-desktop icondev"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img
+                  src="./images/inventory.png"
+                  alt="Shopping Cart Project"
+                  width="500"
+                  height="500"
+                  class="img-fluid mx-auto shadow-lg"
+                  focusable="false"
+                />
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="row">
+              <div class="col-md-7">
+                <h2 class="lh-1 fw-bold">Member Only</h2>
+                <p class="lead">
+                  Exclusing messaging app. Build with Express, MongoDB, hosted
+                  on Heroku. People can register and post message. Only people
+                  login can see the message. Admin can delete message.
+                </p>
+                <div class="d-flex justify-content-around my-4">
+                  <div>
+                    <p class="mb-2 lead">Technologies Used</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <i class="devicon-bootstrap-plain icondev"></i>
+                      <i class="devicon-express-original icondev"></i>
+                      <i class="devicon-mongodb-plain icondev"></i>
+                      <i class="devicon-heroku-original icondev"></i>
+                    </div>
+                  </div>
+                  <div style="min-width: 128px">
+                    <p class="mb-2 lead">Links</p>
+                    <div
+                      class="d-flex align-items-center justify-content-around"
+                    >
+                      <a
+                        href="https://github.com/devkovmtl/private-club"
+                        class="btn btn-small btn-outline--secondary mr-4"
+                        target="_blank"
+                      >
+                        <i class="devicon-github-original-wordmark icondev"></i>
+                      </a>
+                      <a
+                        href="https://dry-island-30509.herokuapp.com/"
+                        class="btn btn-small btn-outline--secondary"
+                        target="_blank"
+                        ><i class="fa-solid fa-desktop icondev"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/members-only.png"
+                  alt="Member only project"
+                  width="500"
+                  height="500"
+                  class="img-fluid mx-auto shadow-lg"
+                  focusable="false"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="contact" class="min-vh-100">
         <div class="container my-5">

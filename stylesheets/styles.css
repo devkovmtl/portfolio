@@ -54,10 +54,6 @@ nav {
   font-size: 32px;
 }
 
-.icondev-link:hover {
-  color: var(--primary-color);
-}
-
-#projects {
-  background: green;
+.divider {
+  margin: 5rem 0;
 }
