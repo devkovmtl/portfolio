@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #0000e4;
+  --dark-color: #000065;
+  --light-color: #4b4bff;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #fff;
+}
+
+.nav-link {
+  margin-left: 1.25rem;
+  padding: 0.25rem 0;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #808080;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+  color: var(--dark-color);
+  border-bottom: 0.25rem solid var(--dark-color);
+}
+
+.title--color {
+  color: var(--primary-color);
+}
+
+.btn--primary {
+  color: #fff;
+  background: var(--primary-color);
+}
+
+.btn--primary:hover {
+  color: #fff;
+  background: var(--light-color);
+}
+
+.btn-outline--secondary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline--secondary:hover {
+  color: #fff;
+  background: var(--primary-color);
+}
+
+#projects {
+  background: green;
+}
+
+#contact {
+  background: blue;
+}
