@@ -22,8 +22,8 @@ nav {
 }
 
 .nav-link:hover {
-  color: var(--dark-color);
-  border-bottom: 0.25rem solid var(--dark-color);
+  color: var(--primary-color);
+  border-bottom: 0.25rem solid var(--primary-color);
 }
 
 .title--color {
@@ -50,10 +50,14 @@ nav {
   background: var(--primary-color);
 }
 
-#projects {
-  background: green;
+.icondev {
+  font-size: 32px;
 }
 
-#contact {
-  background: blue;
+.icondev-link:hover {
+  color: var(--primary-color);
+}
+
+#projects {
+  background: green;
 }

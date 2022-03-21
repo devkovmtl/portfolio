@@ -12,6 +12,12 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Devicon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+
     <link rel="stylesheet" href="./stylesheets/styles.css" />
     <title>M.Y.A - Portfolio</title>
   </head>
@@ -38,7 +44,7 @@
                 Full Stack Developer
               </h1>
               <p class="display-4">
-                Build web apps using
+                I Build web apps using
                 <strong>modern</strong> tools.
               </p>
               <div
@@ -58,33 +64,66 @@
                 >
                   Projects
                 </a>
+
+                <a
+                  href="https://github.com/devkovmtl"
+                  class="btn btn-lg"
+                  target="_blank"
+                >
+                  <i
+                    class="devicon-github-original-wordmark colored icondev icondev-link"
+                  ></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="projects" class="min-vh-100">
+      <section id="projects" class="min-vh-100 bg-light">
         <h1>World</h1>
       </section>
       <section id="contact" class="min-vh-100">
         <div class="container my-5">
-          <div
-            class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-          >
-            <div class="col-lg-9 col-lg-offset-2 p-3 p-lg-5 pt-lg-3">
+          <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+            <h1 class="display-4 fw-bold lh-1 text-center title--color">
+              Contact
+            </h1>
+            <div class="col-lg-9 mx-auto p-3 p-lg-5 pt-lg-3">
               <form
                 action="mailto:dev.kov.mtl@gmail.com"
                 method="POST"
                 enctype="multipart/form-data"
                 name="contanctForm"
               >
-                <div class="form-group">
-                  <input type="text" name="Contact Name" />
+                <div class="mb-3 mt-3">
+                  <label for="name" class="form-label">Full Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your full name"
+                    name="name"
+                  />
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="message"
+                    name="message"
+                    placeholder="Enter your message"
+                  ></textarea>
                 </div>
                 <div class="form-group">
-                  <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                  <button
+                    type="submit"
+                    class="btn btn-lg btn--primary mt-3 mb-3"
+                  >
+                    Send
+                  </button>
                 </div>
-                <input type="submit" value="send" />
               </form>
             </div>
           </div>
