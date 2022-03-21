@@ -7,11 +7,12 @@
 ## Projects
 
 - [Rock Paper Scissors](https://github.com/devkovmtl/rock-paper-scissors)
-- [Etch a Sketch](https://github.com/devkovmtl/etch-a-sketch)
+- [Etch a Sketch](https://github.com/devkovmtl/etch-a-sketch) [live](https://devkovmtl.github.io/etch-a-sketch/)
 - [Calculator](https://github.com/devkovmtl/calculator)
 - [Library](https://github.com/devkovmtl/library)
 - [Tic Tac Toe](https://github.com/devkovmtl/tic-tac-toe)
 - [Restaurant Page](https://github.com/devkovmtl/restaurant_page)
+- [Battleship](https://github.com/devkovmtl/battleship) [live]()
 - [Shopping Cart](https://github.com/devkovmtl/shopping-cart) [live](https://devkovmtl.github.io/shopping-cart/)
 - [Where's Waldo](https://github.com/devkovmtl/where-is-waldo) [live](https://waldo-71d19.web.app/)
 - [Fake Twitter Clone](https://github.com/devkovmtl/fake-twitter-clone) [live](https://twitter-clone-dd466.web.app/home)
